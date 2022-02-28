@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
     default: {
       connector: "mongoose",
       settings: {
-        uri: env("DATABASE_URI"),
+        uri: "mongodb+srv://autoregister:subisu980@autoregister.7bhfj.mongodb.net/AutoRegister?retryWrites=true&w=majority",
       },
       options: {
         ssl: true,
