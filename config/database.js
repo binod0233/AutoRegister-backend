@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
     default: {
       connector: "mongoose",
       settings: {
-        uri: "mongodb+srv://autoregister:subisu980@autoregister.7bhfj.mongodb.net/AutoRegister?retryWrites=true&w=majority",
+        uri: env("DATABASE_URI"),
       },
       options: {
         ssl: true,
@@ -12,6 +12,21 @@ module.exports = ({ env }) => ({
     },
   },
 });
+
+// module.exports = ({ env }) => ({
+//   defaultConnection: "default",
+//   connections: {
+//     default: {
+//       connector: "mongoose",
+//       settings: {
+//         uri: "mongodb+srv://autoregister:subisu980@autoregister.7bhfj.mongodb.net/AutoRegister?retryWrites=true&w=majority",
+//       },
+//       options: {
+//         ssl: true,
+//       },
+//     },
+//   },
+// });
 
 // module.exports = ({ env }) => ({
 //   defaultConnection: 'default',
