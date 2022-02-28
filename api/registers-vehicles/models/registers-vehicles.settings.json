@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registers_vehicles",
+  "info": {
+    "name": "RegistersVehicles",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "vehiclenumber": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "integer"
+    }
+  }
+}

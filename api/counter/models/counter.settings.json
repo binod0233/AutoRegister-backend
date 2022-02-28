@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "counters",
+  "info": {
+    "name": "Counter"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "vehiclenumber": {
+      "type": "string"
+    },
+    "checkpoint1": {
+      "type": "time"
+    },
+    "checkpoint2": {
+      "type": "time"
+    },
+    "checkpoint3": {
+      "type": "time"
+    },
+    "remark": {
+      "type": "boolean"
+    }
+  }
+}
