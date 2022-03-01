@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "vehicle_statuses",
+  "collectionName": "vehicles",
   "info": {
-    "name": "VehicleStatus",
+    "name": "Vehicles",
     "description": ""
   },
   "options": {
@@ -15,8 +15,14 @@
     "name": {
       "type": "string"
     },
-    "vechiclenumber": {
+    "email": {
+      "type": "email"
+    },
+    "vehiclenumber": {
       "type": "string"
+    },
+    "phonenumber": {
+      "type": "integer"
     }
   }
 }

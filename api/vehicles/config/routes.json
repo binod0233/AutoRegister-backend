@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/vehicle-statuses",
-      "handler": "vehicle-status.find",
+      "path": "/vehicles",
+      "handler": "vehicles.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/vehicle-statuses/count",
-      "handler": "vehicle-status.count",
+      "path": "/vehicles/count",
+      "handler": "vehicles.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/vehicle-statuses/:id",
-      "handler": "vehicle-status.findOne",
+      "path": "/vehicles/:id",
+      "handler": "vehicles.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/vehicle-statuses",
-      "handler": "vehicle-status.create",
+      "path": "/vehicles",
+      "handler": "vehicles.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/vehicle-statuses/:id",
-      "handler": "vehicle-status.update",
+      "path": "/vehicles/:id",
+      "handler": "vehicles.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/vehicle-statuses/:id",
-      "handler": "vehicle-status.delete",
+      "path": "/vehicles/:id",
+      "handler": "vehicles.delete",
       "config": {
         "policies": []
       }
