@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "points",
+  "info": {
+    "name": "points",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vehiclenumber": {
+      "type": "string"
+    }
+  }
+}

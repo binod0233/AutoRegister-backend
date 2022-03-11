@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "name": "Payment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vehiclenumber": {
+      "type": "string"
+    },
+    "epaystatus": {
+      "type": "boolean"
+    },
+    "finestatus": {
+      "type": "boolean"
+    },
+    "efee": {
+      "type": "integer"
+    },
+    "fine": {
+      "type": "integer"
+    }
+  }
+}
